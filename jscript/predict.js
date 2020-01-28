@@ -104,8 +104,8 @@ $("#image-selector").change(function () {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('https://otak-segmen.netlify.com/model_3/model.json');
-	$("#selected-image").attr("src", "https://otak-segmen.netlify.com/assets/ich.jpg");
+	model = await tf.loadModel('https://otak-segmen.now.sh/model_3/model.json');
+	$("#selected-image").attr("src", "https://otak-segmen.now.sh/assets/ich.jpg");
 	
 	
 	// Hide the model loading spinner
